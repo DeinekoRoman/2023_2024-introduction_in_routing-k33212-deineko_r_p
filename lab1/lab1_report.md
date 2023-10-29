@@ -71,3 +71,21 @@ topology:
     - endpoints: ["SW01.L3.01.TEST:eth3", "SW02.L3.02.TEST:eth1"]
     - endpoints: ["SW02.L3.02.TEST:eth2", "PC2:eth1"]
 ```
+Далее была проведена настройка каждого устройства в сети отдельно:
+### Конфигурация R01.TEST
+![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/b8fb14d5-0de0-4c23-897c-23ecda712344)
+
+### Конфигурация SW01.L3.01.TEST
+![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/ec5f0f08-8638-4169-8590-2e6aa029b1ab)
+
+### Конфигурация SW02.L3.01.TEST
+![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/1d470312-2c2a-470e-876d-924677636bd2)
+
+### Конфигурация SW02.L3.02.TEST
+![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/8c1dcfd1-937b-48d9-87a2-5113c588ad6c)
+
+### Настройка PC2
+![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/0617ad09-ad29-4dc4-9086-57fd85f6b26e)
+
+### Проверка доступности
+![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/1b0aabfd-fe3f-4a5b-956c-ae1e0a64ffce)
