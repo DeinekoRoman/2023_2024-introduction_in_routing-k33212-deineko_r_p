@@ -87,5 +87,11 @@ topology:
 ### Настройка PC2
 ![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/0617ad09-ad29-4dc4-9086-57fd85f6b26e)
 
+### Топология сети
+![Топология](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/562a1fec-ac99-485a-9210-87df1fa2d99e)
+
 ### Проверка доступности
 ![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/1b0aabfd-fe3f-4a5b-956c-ae1e0a64ffce)
+
+## Вывод
+В результате лабораторной работы удалось ознакомиться с инструментом ContainerLab, а также создать сеть и настроить устройства на базе ОС Linux и RouterOS
