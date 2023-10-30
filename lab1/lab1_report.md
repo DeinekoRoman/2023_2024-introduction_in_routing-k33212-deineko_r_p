@@ -85,6 +85,7 @@ topology:
 ![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/8c1dcfd1-937b-48d9-87a2-5113c588ad6c)
 
 ### Настройка PC2
+С помощью пакетов iproute2 и dhcpcd5 через dhcp-сервера компьютерами были получены соответствующие ip адреса (Компьютер PC1 был настроен аналогично)
 ![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/0617ad09-ad29-4dc4-9086-57fd85f6b26e)
 
 ### Топология сети
