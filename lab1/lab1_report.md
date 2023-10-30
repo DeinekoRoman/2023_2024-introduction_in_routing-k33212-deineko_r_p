@@ -91,6 +91,7 @@ topology:
 ![Топология](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/562a1fec-ac99-485a-9210-87df1fa2d99e)
 
 ### Проверка доступности
+В результате проверки можно убедиться, что все устройства соединены и функционируют в соответствии с заданием
 ![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/1b0aabfd-fe3f-4a5b-956c-ae1e0a64ffce)
 
 ## Вывод
