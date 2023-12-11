@@ -41,10 +41,6 @@ Date of finished: 11.12.2023
 ### Конфигурация PC.BRL
 ![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/21f3038c-1df0-4067-adc3-4919fb9ff713)
 
-### Настройка PC2
-С помощью пакетов iproute2 и dhcpcd5 через dhcp-сервера компьютерами были получены соответствующие ip адреса (Компьютер PC1 был настроен аналогично)
-![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/0617ad09-ad29-4dc4-9086-57fd85f6b26e)
-
 ### Топология сети
 ![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/1b5dab6d-141b-45b4-8b1a-0cb3e3001b28)
 
