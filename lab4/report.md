@@ -10,11 +10,11 @@ Group: K33212
 
 Author: Deineko Roman Pavlovich
 
-Lab: Lab3  
+Lab: Lab4  
 
-Date of create: 11.12.2023  
+Date of create: 24.12.2023  
 
-Date of finished: 11.12.2023
+Date of finished: 24.12.2023
 
 # Лабораторная работа №3 "Эмуляция распределенной корпоративной сети связи, настройка iBGP, организация L3VPN, VPLS"
 ## Цель работы
