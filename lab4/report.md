@@ -228,9 +228,12 @@ add area=backbone
 set name=R01.SVL
 ```
 
+### Топология сети
+![image](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/82fc197f-7c0d-45a1-b1f8-c5992c95efcc)
+
 ### Проверка доступности
-По результатам проверки на примере нью-йоркского роутера можно убедиться, что сеть функционирует в соотвествии с заданием
-![new_ping1](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/6b3b1454-f210-46ee-89b0-7034294415fb)
+По результатам проверки на примере петербургского роутера можно убедиться, что сеть функционирует в соотвествии с заданием
+![new_ping1](https://github.com/DeinekoRoman/2023_2024-introduction_in_routing-k33212-deineko_r_p/assets/90695269/04f83acc-f1f1-495c-93fd-7a94cd327535)
 
 ## Часть 2
 После завершения первой части лабораторной работы на устройствах был разобран VRF и настроен VPLS. Для этого на каждом конечном роутере были добавлены соответствующие vpls-интерфейсы, а также bridge vpls.
@@ -269,7 +272,7 @@ add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=2.2.2.
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.NY
+set name=R01.NYC
 ```
 
 ### Конфигурация R01.SPB
