@@ -1,54 +1,54 @@
-name: lab3
+name: lab4
 
 mgmt:
   network: statics
-  ipv4-subnet: 192.168.100.0/24
+  ipv4-subnet: 172.20.20.0/24
 
 topology:
   nodes:
-    R01_NYC:
+    R01_nyc:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
 
-    R01_LND:
+    R01_lnd:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
            
-    R01_HKI:
+    R01_hki:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
          
-    R01_SPB:
+    R01_spb:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
            
-    R01_MSK:
+    R01_svl:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
             
-    R01_LBN:
+    R01_lbn:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
           
-    PC1:
-      kind: linux
-      image: ubuntu:latest
-      ports:
-        - "8023:23"
+    pc1:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
 
-    SGI_Prism:
-      kind: linux
-      image: ubuntu:latest
-      ports:
-        - "9023:23"
-  
+    pc2:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+
+    pc3:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+
   links:
-    - endpoints: ["SGI_Prism:eth1","R01_NYC:eth1"]
-    - endpoints: ["R01_NYC:eth2","R01_LND:eth1"]
-    - endpoints: ["R01_NYC:eth3","R01_LBN:eth1"]
-    - endpoints: ["R01_LND:eth2","R01_HKI:eth1"]
-    - endpoints: ["R01_LBN:eth2","R01_HKI:eth2"]
-    - endpoints: ["R01_LBN:eth3","R01_MSK:eth1"]
-    - endpoints: ["R01_HKI:eth3","R01_SPB:eth1"]
-    - endpoints: ["R01_SPB:eth2","R01_MSK:eth2"]
-    - endpoints: ["R01_SPB:eth3","PC1:eth1"]
+    - endpoints: ["pc1:eth1","R01_nyc:eth1"]
+    - endpoints: ["R01_nyc:eth2","R01_lnd:eth1"]
+    - endpoints: ["R01_lnd:eth2","R01_lbn:eth1"]
+    - endpoints: ["R01_lnd:eth3","R01_hki:eth1"]
+    - endpoints: ["R01_lbn:eth2","R01_hki:eth2"]
+    - endpoints: ["R01_hki:eth3","R01_spb:eth1"]
+    - endpoints: ["R01_lbn:eth3","R01_svl:eth1"]
+    - endpoints: ["R01_svl:eth2","pc3:eth1"]
+    - endpoints: ["R01_spb:eth3","pc2:eth1"]
